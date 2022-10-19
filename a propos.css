@@ -1,0 +1,47 @@
+body{
+    text-align: center;
+}
+iframe{
+    margin: 10px;
+}
+h2{
+    color: crimson;
+}
+a{
+    text-decoration: none;
+    color: yellow;
+
+}
+button{
+    height: 50px;
+    width: 50px;
+    transform: scale(1);
+    background-color: red;
+    border-radius: 5%;
+    box-shadow: 5px 5px 5px 5px;
+    
+}
+nav{
+    position: fixed;
+    height: 70px;
+    width: 100%;
+    background-color: chartreuse;
+}
+ul{
+    width: 100%;
+    text-align: center;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 70px;
+    margin: 0 5px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #333;
+    font-size: 19px;
+}
+a{
+  height: 300px;
+  width: 300px;  
+}

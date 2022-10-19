@@ -1,0 +1,55 @@
+
+
+body{
+    background-image:url(https://th.bing.com/th/id/OIP.i1sGEvM_eOCL3CW7q0q6IAHaJ4?pid=ImgDet&rs=1);
+    background-repeat: no-repeat;
+    /* background-position:center; */
+    background-size: cover;
+    color:red
+    /* mettre une image en fond et bien la centrer sur la page */
+}
+h1,h2,h3{
+    color:violet
+}
+a{
+    text-align: center;
+    text-decoration:none;
+    color:darkblue;
+}
+
+/* couleur des lien */
+/* nav{
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    background-color: chartreuse;
+    text-align: center;
+}
+ul{
+    width: 100%;
+    text-align: center;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 70px;
+    margin: 0 5px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #333;
+    font-size: 19px;
+}
+a{
+  height: 300px;
+  width: 300px;  
+} */
+@media only screen and (max-width:600px) and (min-width:400px)
+{
+    h1{
+        color:blue;
+    }
+    body{
+        background-image:url(https://th.bing.com/th/id/R.9f0a93ee1070ee158632e5bee52550a4?rik=fwjPyNicSEtufA&pid=ImgRaw&r=0);
+    }
+}
+/* modification avec avec la taille de l'ecrant ou l'image*/
